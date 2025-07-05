@@ -26,4 +26,3 @@ MIRYOKU_DOUBLE_TAP_GUARD(u_bootloader, &bootloader)
   #endif
 #endif
 
-MIRYOKU_DOUBLE_TAP_GUARD(u_game_toggle, &tog U_GAME)
