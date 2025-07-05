@@ -3,5 +3,7 @@
 
 #pragma once
 
-#define U_MT(MOD, TAP) &u_mt MOD TAP
-#define U_LT(LAYER, TAP) &u_lt LAYER TAP
+#define U_MT(MOD, TAP) &u_mt_bypass MOD TAP
+#define U_LT(LAYER, TAP) &u_lt_bypass LAYER TAP
+#define U_MT_BYPASS(MOD, TAP) &u_mt_bypass MOD TAP
+#define U_LT_BYPASS(LAYER, TAP) &u_lt_bypass LAYER TAP
