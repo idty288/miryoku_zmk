@@ -17,21 +17,5 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    u_mt_bypass: u_mt_bypass {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      tapping-term-ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
-      require-prior-idle-ms = <150>;
-      bindings = <&kp>, <&kp>;
-    };
-    u_lt_bypass: u_lt_bypass {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      tapping-term-ms = <U_TAPPING_TERM>;
-      flavor = "tap-preferred";
-      require-prior-idle-ms = <150>;
-      bindings = <&mo>, <&kp>;
-    };
   };
 };
