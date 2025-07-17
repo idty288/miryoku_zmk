@@ -13,9 +13,9 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 #define MIRYOKU_ALTERNATIVES_GAME_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LSHFT, A),    &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
-U_MT(LCTRL, Z),    &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),&kp SPACE,         &kp TAB,           U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+U_MT(LSHFT, A),    &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             U_MT(LALT, L),     U_MT(LSHFT, SQT),  \
+U_MT(LCTRL, Z),    &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           U_MT(LCTRL, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),&kp TAB,           U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_VI \
 U_BOOT,            &u_to_U_BASE,      &u_to_U_BASE,      &u_to_U_GAME,      &u_to_U_GAME,      U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
