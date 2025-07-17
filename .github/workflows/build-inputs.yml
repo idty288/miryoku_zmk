@@ -61,7 +61,7 @@ on:
       branches:
         description: 'branches'
         required: false
-        default: 'idty288/zmk/main'
+        default: 'default'
       modules:
         description: 'modules'
         required: false
