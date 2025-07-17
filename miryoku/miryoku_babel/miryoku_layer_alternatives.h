@@ -13,8 +13,8 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 #define MIRYOKU_ALTERNATIVES_GAME_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-U_MT(LSHFT, A),    &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             U_MT(LALT, L),     U_MT(LSHFT, SQT),  \
-U_MT(LCTRL, Z),    &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           U_MT(LCTRL, SLASH),\
+U_MT(LCTRL, A),    &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             U_MT(LALT, L),     U_MT(LCTRL, SQT),  \
+U_MT(LSHFT, Z),    &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           U_MT(LSHFT, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),&kp TAB,           U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_VI \
